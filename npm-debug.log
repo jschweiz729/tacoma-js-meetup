@@ -1,0 +1,311 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'grunt-contrib-clean' ]
+2 info using npm@2.6.1
+3 info using node@v0.12.0
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json my-first-rest@0.0.0 No description
+6 silly cache add args [ 'grunt-contrib-clean', null ]
+7 verbose cache add spec grunt-contrib-clean
+8 silly cache add parsed spec { raw: 'grunt-contrib-clean',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'grunt-contrib-clean',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 verbose addNamed grunt-contrib-clean@*
+10 silly addNamed semver.valid null
+11 silly addNamed semver.validRange *
+12 silly addNameRange { name: 'grunt-contrib-clean', range: '*', hasData: false }
+13 silly mapToRegistry name grunt-contrib-clean
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-clean
+17 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-clean not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/grunt-contrib-clean
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 09:40:27
+21 verbose request id 5d71e1f5a015b918
+22 verbose etag "4BV2U402CXV6APW7L76NS7ZEB"
+23 http request GET https://registry.npmjs.org/grunt-contrib-clean
+24 http 304 https://registry.npmjs.org/grunt-contrib-clean
+25 silly get cb [ 304,
+25 silly get   { date: 'Sat, 28 Mar 2015 16:40:28 GMT',
+25 silly get     server: 'Apache',
+25 silly get     via: '1.1 varnish',
+25 silly get     'last-modified': 'Sat, 28 Mar 2015 16:40:28 GMT',
+25 silly get     'cache-control': 'max-age=60',
+25 silly get     etag: '"4BV2U402CXV6APW7L76NS7ZEB"',
+25 silly get     age: '0',
+25 silly get     'x-served-by': 'cache-lax1432-LAX',
+25 silly get     'x-cache': 'HIT',
+25 silly get     'x-cache-hits': '1',
+25 silly get     'x-timer': 'S1427560828.285764,VS0,VE181',
+25 silly get     vary: 'Accept',
+25 silly get     'content-length': '0',
+25 silly get     'keep-alive': 'timeout=10, max=50',
+25 silly get     connection: 'Keep-Alive' } ]
+26 verbose etag https://registry.npmjs.org/grunt-contrib-clean from cache
+27 verbose get saving grunt-contrib-clean to /Users/jschweiz/.npm/registry.npmjs.org/grunt-contrib-clean/.cache.json
+28 silly addNameRange number 2 { name: 'grunt-contrib-clean', range: '*', hasData: true }
+29 silly addNameRange versions [ 'grunt-contrib-clean',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.3.1',
+29 silly addNameRange     '0.3.2',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.4.0-a',
+29 silly addNameRange     '0.4.0-rc5',
+29 silly addNameRange     '0.4.0-rc6' ] ]
+30 verbose addNamed grunt-contrib-clean@0.6.0
+31 silly addNamed semver.valid 0.6.0
+32 silly addNamed semver.validRange 0.6.0
+33 silly cache afterAdd grunt-contrib-clean@0.6.0
+34 verbose afterAdd /Users/jschweiz/.npm/grunt-contrib-clean/0.6.0/package/package.json not in flight; writing
+35 verbose afterAdd /Users/jschweiz/.npm/grunt-contrib-clean/0.6.0/package/package.json written
+36 silly install resolved [ { name: 'grunt-contrib-clean',
+36 silly install resolved     description: 'Clean files and folders.',
+36 silly install resolved     version: '0.6.0',
+36 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-clean',
+36 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+36 silly install resolved     repository:
+36 silly install resolved      { type: 'git',
+36 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-clean.git' },
+36 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-clean/issues' },
+36 silly install resolved     licenses: [ [Object] ],
+36 silly install resolved     engines: { node: '>= 0.8.0' },
+36 silly install resolved     scripts: { test: 'grunt test' },
+36 silly install resolved     dependencies: { rimraf: '~2.2.1' },
+36 silly install resolved     devDependencies:
+36 silly install resolved      { 'grunt-contrib-jshint': '~0.10.0',
+36 silly install resolved        'grunt-contrib-nodeunit': '~0.3.3',
+36 silly install resolved        'grunt-contrib-internal': '~0.4.10',
+36 silly install resolved        grunt: '~0.4.0' },
+36 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+36 silly install resolved     keywords: [ 'gruntplugin' ],
+36 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+36 silly install resolved     _id: 'grunt-contrib-clean@0.6.0',
+36 silly install resolved     dist:
+36 silly install resolved      { shasum: 'f532dba4b8212674c7c013e146bda6638b9048f6',
+36 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-clean/-/grunt-contrib-clean-0.6.0.tgz' },
+36 silly install resolved     _from: 'grunt-contrib-clean@*',
+36 silly install resolved     _npmVersion: '1.3.26',
+36 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+36 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+36 silly install resolved     directories: {},
+36 silly install resolved     _shasum: 'f532dba4b8212674c7c013e146bda6638b9048f6',
+36 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-clean/-/grunt-contrib-clean-0.6.0.tgz',
+36 silly install resolved     readme: 'ERROR: No README data found!' } ]
+37 info install grunt-contrib-clean@0.6.0 into /Users/jschweiz/Documents/js-meetup/my-first-rest
+38 info installOne grunt-contrib-clean@0.6.0
+39 verbose installOne of grunt-contrib-clean to /Users/jschweiz/Documents/js-meetup/my-first-rest not in flight; installing
+40 verbose lock using /Users/jschweiz/.npm/_locks/grunt-contrib-clean-d451e599bd4a4a89.lock for /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean
+41 silly install write writing grunt-contrib-clean 0.6.0 to /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean
+42 silly cache addNamed cb grunt-contrib-clean@0.6.0
+43 verbose unbuild node_modules/grunt-contrib-clean
+44 info preuninstall grunt-contrib-clean@0.6.0
+45 info uninstall grunt-contrib-clean@0.6.0
+46 verbose unbuild rmStuff grunt-contrib-clean@0.6.0 from /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules
+47 info postuninstall grunt-contrib-clean@0.6.0
+48 verbose gentlyRm vacuuming /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean
+49 silly gentlyRm purging /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean
+50 silly gentlyRm quitting because other entries in /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules
+51 verbose tar unpack /Users/jschweiz/.npm/grunt-contrib-clean/0.6.0/package.tgz
+52 verbose tar unpacking to /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean
+53 verbose gentlyRm vacuuming /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean
+54 silly gunzTarPerm modes [ '755', '644' ]
+55 silly gunzTarPerm extractEntry package.json
+56 silly gunzTarPerm extractEntry README.md
+57 silly gunzTarPerm extractEntry LICENSE-MIT
+58 silly gunzTarPerm extractEntry tasks/clean.js
+59 info preinstall grunt-contrib-clean@0.6.0
+60 silly prepareForInstallMany adding rimraf@~2.2.1 from grunt-contrib-clean dependencies
+61 silly cache add args [ 'rimraf@~2.2.1', null ]
+62 verbose cache add spec rimraf@~2.2.1
+63 silly cache add parsed spec { raw: 'rimraf@~2.2.1',
+63 silly cache add   scope: null,
+63 silly cache add   name: 'rimraf',
+63 silly cache add   rawSpec: '~2.2.1',
+63 silly cache add   spec: '>=2.2.1 <2.3.0',
+63 silly cache add   type: 'range' }
+64 verbose addNamed rimraf@>=2.2.1 <2.3.0
+65 silly addNamed semver.valid null
+66 silly addNamed semver.validRange >=2.2.1 <2.3.0
+67 silly addNameRange { name: 'rimraf', range: '>=2.2.1 <2.3.0', hasData: false }
+68 silly mapToRegistry name rimraf
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry uri https://registry.npmjs.org/rimraf
+72 verbose addNameRange registry:https://registry.npmjs.org/rimraf not in flight; fetching
+73 verbose request uri https://registry.npmjs.org/rimraf
+74 verbose request no auth needed
+75 info attempt registry request try #1 at 09:40:28
+76 verbose etag "3Q4JZH6I4AM1WBR3WTW98PVYG"
+77 http request GET https://registry.npmjs.org/rimraf
+78 http 304 https://registry.npmjs.org/rimraf
+79 silly get cb [ 304,
+79 silly get   { date: 'Sat, 28 Mar 2015 16:40:28 GMT',
+79 silly get     server: 'Apache',
+79 silly get     via: '1.1 varnish',
+79 silly get     'last-modified': 'Sat, 28 Mar 2015 16:40:28 GMT',
+79 silly get     'cache-control': 'max-age=60',
+79 silly get     etag: '"3Q4JZH6I4AM1WBR3WTW98PVYG"',
+79 silly get     age: '24',
+79 silly get     'x-served-by': 'cache-lax1426-LAX',
+79 silly get     'x-cache': 'HIT',
+79 silly get     'x-cache-hits': '1',
+79 silly get     'x-timer': 'S1427560828.755841,VS0,VE0',
+79 silly get     vary: 'Accept',
+79 silly get     'content-length': '0',
+79 silly get     'keep-alive': 'timeout=10, max=50',
+79 silly get     connection: 'Keep-Alive' } ]
+80 verbose etag https://registry.npmjs.org/rimraf from cache
+81 verbose get saving rimraf to /Users/jschweiz/.npm/registry.npmjs.org/rimraf/.cache.json
+82 silly addNameRange number 2 { name: 'rimraf', range: '>=2.2.1 <2.3.0', hasData: true }
+83 silly addNameRange versions [ 'rimraf',
+83 silly addNameRange   [ '1.0.0',
+83 silly addNameRange     '1.0.1',
+83 silly addNameRange     '1.0.2',
+83 silly addNameRange     '1.0.4',
+83 silly addNameRange     '1.0.5',
+83 silly addNameRange     '1.0.6',
+83 silly addNameRange     '1.0.7',
+83 silly addNameRange     '1.0.8',
+83 silly addNameRange     '1.0.9',
+83 silly addNameRange     '2.0.0',
+83 silly addNameRange     '2.0.1',
+83 silly addNameRange     '2.0.2',
+83 silly addNameRange     '2.0.3',
+83 silly addNameRange     '2.1.0',
+83 silly addNameRange     '2.1.1',
+83 silly addNameRange     '2.1.2',
+83 silly addNameRange     '2.1.3',
+83 silly addNameRange     '2.1.4',
+83 silly addNameRange     '2.2.0',
+83 silly addNameRange     '2.2.1',
+83 silly addNameRange     '2.2.2',
+83 silly addNameRange     '2.2.3',
+83 silly addNameRange     '2.2.4',
+83 silly addNameRange     '2.2.5',
+83 silly addNameRange     '2.2.6',
+83 silly addNameRange     '2.2.8',
+83 silly addNameRange     '2.3.0',
+83 silly addNameRange     '2.3.1',
+83 silly addNameRange     '2.3.2' ] ]
+84 verbose addNamed rimraf@2.2.8
+85 silly addNamed semver.valid 2.2.8
+86 silly addNamed semver.validRange 2.2.8
+87 silly cache afterAdd rimraf@2.2.8
+88 verbose afterAdd /Users/jschweiz/.npm/rimraf/2.2.8/package/package.json not in flight; writing
+89 verbose afterAdd /Users/jschweiz/.npm/rimraf/2.2.8/package/package.json written
+90 silly install resolved [ { name: 'rimraf',
+90 silly install resolved     version: '2.2.8',
+90 silly install resolved     main: 'rimraf.js',
+90 silly install resolved     description: 'A deep deletion module for node (like `rm -rf`)',
+90 silly install resolved     author:
+90 silly install resolved      { name: 'Isaac Z. Schlueter',
+90 silly install resolved        email: 'i@izs.me',
+90 silly install resolved        url: 'http://blog.izs.me/' },
+90 silly install resolved     license:
+90 silly install resolved      { type: 'MIT',
+90 silly install resolved        url: 'https://github.com/isaacs/rimraf/raw/master/LICENSE' },
+90 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/rimraf.git' },
+90 silly install resolved     scripts: { test: 'cd test && bash run.sh' },
+90 silly install resolved     bin: { rimraf: './bin.js' },
+90 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+90 silly install resolved     bugs: { url: 'https://github.com/isaacs/rimraf/issues' },
+90 silly install resolved     homepage: 'https://github.com/isaacs/rimraf',
+90 silly install resolved     _id: 'rimraf@2.2.8',
+90 silly install resolved     _shasum: 'e439be2aaee327321952730f99a8929e4fc50582',
+90 silly install resolved     _from: 'rimraf@>=2.2.1 <2.3.0',
+90 silly install resolved     _npmVersion: '1.4.10',
+90 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+90 silly install resolved     maintainers: [ [Object] ],
+90 silly install resolved     dist:
+90 silly install resolved      { shasum: 'e439be2aaee327321952730f99a8929e4fc50582',
+90 silly install resolved        tarball: 'http://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz' },
+90 silly install resolved     directories: {},
+90 silly install resolved     _resolved: 'https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz',
+90 silly install resolved     readme: 'ERROR: No README data found!' } ]
+91 info install rimraf@2.2.8 into /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean
+92 info installOne rimraf@2.2.8
+93 verbose installOne of rimraf to /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean not in flight; installing
+94 verbose lock using /Users/jschweiz/.npm/_locks/rimraf-1eabbf154ec1fd94.lock for /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean/node_modules/rimraf
+95 silly install write writing rimraf 2.2.8 to /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean/node_modules/rimraf
+96 silly cache addNamed cb rimraf@2.2.8
+97 verbose unbuild node_modules/grunt-contrib-clean/node_modules/rimraf
+98 verbose gentlyRm vacuuming /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean/node_modules/rimraf
+99 verbose tar unpack /Users/jschweiz/.npm/rimraf/2.2.8/package.tgz
+100 verbose tar unpacking to /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean/node_modules/rimraf
+101 verbose gentlyRm vacuuming /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean/node_modules/rimraf
+102 silly gunzTarPerm modes [ '755', '644' ]
+103 silly gunzTarPerm extractEntry package.json
+104 silly gunzTarPerm extractEntry README.md
+105 silly gunzTarPerm extractEntry LICENSE
+106 silly gunzTarPerm extractEntry bin.js
+107 silly gunzTarPerm extractEntry rimraf.js
+108 silly gunzTarPerm extractEntry AUTHORS
+109 silly gunzTarPerm extractEntry test/test-async.js
+110 silly gunzTarPerm extractEntry test/test-sync.js
+111 silly gunzTarPerm extractEntry test/run.sh
+112 silly gunzTarPerm extractEntry test/setup.sh
+113 info preinstall rimraf@2.2.8
+114 silly install resolved []
+115 verbose about to build /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean/node_modules/rimraf
+116 info build /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean/node_modules/rimraf
+117 verbose linkStuff [ false,
+117 verbose linkStuff   false,
+117 verbose linkStuff   false,
+117 verbose linkStuff   '/Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean/node_modules' ]
+118 info linkStuff rimraf@2.2.8
+119 verbose linkBins rimraf@2.2.8
+120 verbose link bins [ { rimraf: './bin.js' },
+120 verbose link bins   '/Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean/node_modules/.bin',
+120 verbose link bins   false ]
+121 verbose linkMans rimraf@2.2.8
+122 verbose rebuildBundles rimraf@2.2.8
+123 verbose gentlyRm vacuuming /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean/node_modules/.bin/rimraf
+124 info install rimraf@2.2.8
+125 info postinstall rimraf@2.2.8
+126 verbose unlock done using /Users/jschweiz/.npm/_locks/rimraf-1eabbf154ec1fd94.lock for /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean/node_modules/rimraf
+127 verbose about to build /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean
+128 info build /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean
+129 verbose linkStuff [ false,
+129 verbose linkStuff   false,
+129 verbose linkStuff   false,
+129 verbose linkStuff   '/Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules' ]
+130 info linkStuff grunt-contrib-clean@0.6.0
+131 verbose linkBins grunt-contrib-clean@0.6.0
+132 verbose linkMans grunt-contrib-clean@0.6.0
+133 verbose rebuildBundles grunt-contrib-clean@0.6.0
+134 verbose rebuildBundles [ '.bin', 'rimraf' ]
+135 info install grunt-contrib-clean@0.6.0
+136 info postinstall grunt-contrib-clean@0.6.0
+137 verbose unlock done using /Users/jschweiz/.npm/_locks/grunt-contrib-clean-d451e599bd4a4a89.lock for /Users/jschweiz/Documents/js-meetup/my-first-rest/node_modules/grunt-contrib-clean
+138 verbose stack Error: The package grunt-contrib-clean does not satisfy its siblings' peerDependencies requirements!
+138 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:104:32
+138 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:231:5
+138 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+138 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+138 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+138 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+138 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+138 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+138 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+138 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+139 verbose cwd /Users/jschweiz/Documents/js-meetup/my-first-rest
+140 error Darwin 14.1.0
+141 error argv "node" "/usr/local/bin/npm" "install" "--save-dev" "grunt-contrib-clean"
+142 error node v0.12.0
+143 error npm  v2.6.1
+144 error code EPEERINVALID
+145 error peerinvalid The package grunt-contrib-clean does not satisfy its siblings' peerDependencies requirements!
+145 error peerinvalid Peer grunt-contrib@0.11.0 wants grunt-contrib-clean@~0.5.0
+146 verbose exit [ 1, true ]
